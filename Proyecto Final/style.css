@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+}
+
+
+.navigation-wrapper{
+    background-color: #080808;
+    height: 100px;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    margin: 0px;
+    padding: 30px 100px 30px 100px;
+
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper> .nav-link {
+    width: 100px;
+    text-align: center;
+}
+
+.links-wrapper> .nav-link a {
+    font-family: "Ubuntu Condensed","sans-serif";
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0,5s;
+    font-size: 25px;
+}
+
+.navigation-wrapper>.columna-izquierda {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+}
+
+.btn {
+    background-color: #54524f;
+    color: #11122b;
+    font-size: 20px;
+    padding: 10px 45px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;    
+}
+
+.btnSinFondo {
+    color: #11122b;
+    font-size: 20px;
+    padding: 10px 45px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;    
+}
+
+.btnRegistro {
+    background-color: #5abd1d;
+    color: black;
+    font-size: 20px;
+    padding: 10px 45px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;    
+}
+
+.botonesRegistro> .btnRegistro a {
+    font-family: "Ubuntu Condensed","sans-serif";
+    color: black;
+    text-decoration: none;
+    transition: 0,5s;
+    font-size: 30px;
+}
+
+.btnLearn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 45px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;    
+}
+
+.botonesRegistro> .btnLearn a {
+    font-family: "Ubuntu Condensed","sans-serif";
+    color: white;
+    text-decoration: none;
+    transition: 0,5s;
+    font-size: 30px;
+}
+
+.links-wrapper> .btn a {
+    font-family: "Ubuntu Condensed","sans-serif";
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0,5s;
+    font-size: 20px;
+}
+
+.links-wrapper> .btnSinFondo a {
+    font-family: "Ubuntu Condensed","sans-serif";
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0,5s;
+    font-size: 20px;
+}
+
+.navigation-wrapper>.columna-izquierda>.banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+.footer{
+    background-color: #373434;
+    height: 100px;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    margin: 0px;
+    padding: 30px 100px 30px 100px;
+
+}
+.links-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-footer> .footer-link {
+    width: 300px;
+    text-align: center;
+}
+
+.links-footer> .footer-link a {
+    font-family: "Ubuntu Condensed","sans-serif";
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0,5s;
+    font-size: 25px;
+    
+}
+
+.cuerpo{
+    background:linear-gradient(to right, rgb(62, 62, 62) 25%, black 75%);
+    width: 100%;
+    height: 500px;
+    margin:0px;
+}
+
+.parrafo{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    text-align: left;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.cuerpo> .parrafo p {
+    font-family: "Ubuntu Condensed","sans-serif";
+    color: #cbcbcb;
+    transition: 0,5s;
+    font-size: 35px;
+}
+
+.botonesRegistro {
+
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+    text-align: left;
+    float: left;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen{
+    margin:10px auto;
+    width:700px;
+    height:400px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    float:right;
+    text-align: center;
+    }
+
+  .imagen img{
+    width: 80%;
+  }
+  @media all and (min-width: 500px) and (max-width: 1000px)
+  {  
+  .imagen{
+    margin:20px auto;
+    border-radius:5px;
+    border: 1px solid #999;
+    width:300px;
+    height:300px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+  
+    background-size: cover;
+    float:right;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    }
+  }
+  .imagen img{
+     width:80%;
+  }
+
+.pie{
+    background-color: rgba(54, 60, 65, 0.986);
+    width: 100%;
+    height: 70px;
+    border-style: solid,10px;
+    border-color: white;
+
+}
